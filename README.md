@@ -1,5 +1,5 @@
 
-# Geometric Shapes Project
+# Console Application
 
 This C++ project is designed to handle geometric shapes, including Rectangle, Triangle, and Circle. The project follows a modular structure with separate header (.h) and implementation (.cpp) files for each class.
 
