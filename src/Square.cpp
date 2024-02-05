@@ -11,7 +11,9 @@ Square ::Square(Point o, double mlength)
     mandatory = o;
     this->mlength = mlength;
 }
-
+Square ::~Square()
+{
+}
 void Square ::Drawing()
 {
     ofstream myfile("../textfile/square.txt");
@@ -23,8 +25,4 @@ void Square ::Drawing()
     myfile << mandatory.x() << " " << mandatory.y() << endl;
 
     myfile.close();
-}
-
-Square ::~Square()
-{
 }

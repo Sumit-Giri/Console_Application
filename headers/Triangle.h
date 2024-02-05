@@ -13,18 +13,9 @@ public:
 
     ~Triangle();
 
-    void AreaofTriangle();
-
-    void PerimeterofTriangle();
-
     void Drawing();
 
 private:
-    float height;
-    float base;
-    float side1;
-    float side2;
-
     Point mVertex2;
     Point mVertex3;
 };

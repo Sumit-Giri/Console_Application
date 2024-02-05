@@ -11,7 +11,9 @@ Circle::Circle(Point o, double r)
     mandatory = o;
     mRadius = r;
 }
-
+Circle ::~Circle()
+{
+}
 void Circle::Drawing()
 {
     ofstream myFile("..\\textfile\\Circle.txt");
@@ -28,8 +30,4 @@ void Circle::Drawing()
         }
         myFile.close();
     }
-}
-
-Circle ::~Circle()
-{
 }

@@ -10,17 +10,9 @@ Triangle::Triangle(Point mVertex1, Point mVertex2, Point mVertex3)
     this->mVertex2 = mVertex2;
     this->mVertex3 = mVertex3;
 }
-
-void Triangle::AreaofTriangle()
+Triangle::~Triangle()
 {
-    cout << " Area of Triangle " << (0.5 * height * base) << endl;
 }
-
-void Triangle ::PerimeterofTriangle()
-{
-    cout << " Perimeter of Triangle " << (base + side1 + side2) << endl;
-}
-
 void Triangle ::Drawing()
 {
 
@@ -32,7 +24,4 @@ void Triangle ::Drawing()
     myfile << mandatory.x() << " " << mandatory.y() << endl;
 
     myfile.close();
-}
-Triangle::~Triangle()
-{
 }

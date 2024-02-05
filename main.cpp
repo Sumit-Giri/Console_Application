@@ -68,38 +68,7 @@ int main()
             break;
         }
 
-        // case 3:
-        // {
-        //     Square s1;
-        //     cout << "Square" << endl;
-        //     cout << "Enter the length" << endl;
-        //     int length;
-        //     cin >> length;
-        //     s1.len = length;
-
-        //     s1.AreaofSquare();
-        //     s1.PerimeterofSquare();
-        //     cout<<endl;
-
-        //     break;
-        // }
-
-        // case 4:
-        // {
-        //      Line l1;
-        //     cout << "Line" << endl;
-        //     cout << "Enter the coordinate of line that are x1, x2, y1, y2" << endl;
-        //     int x1, x2, y1, y2;
-        //     cin >> x1 >> x2 >> y1 >> y2;
-        //     l1.x1 = x1;
-        //     l1.x2 = x2;
-        //     l1.y1 = y1;
-        //     l1.y2 = y2;
-
-        //     l1.lengthofLine();
-        //     cout<<endl;
-        //     break;
-        // }
+      
         case 3:
         {
             cout << "Triangle" << endl;

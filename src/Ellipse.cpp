@@ -14,7 +14,9 @@ Ellipse ::Ellipse(Point o, Point mMajorRadius, Point mMinorRadius)
     this->mMinorRadius = mMinorRadius;
     this->mMajorRadius = mMajorRadius;
 }
-
+Ellipse ::~Ellipse()
+{
+}
 void Ellipse ::Drawing()
 {
     ofstream myFile("../textfile/Ellipse.txt");
@@ -33,17 +35,4 @@ void Ellipse ::Drawing()
         myFile << x << " " << y << " " << mMajorRadius.x() << " " << mMinorRadius.y() << std::endl;
         myFile.close();
     }
-}
-// void Ellipse :: AreaofEllipse ()
-// {
-//     cout<< " Area of Ellipse " << 3.14 * MinorRadius * MajorRadius << endl;
-// }
-
-// void Ellipse :: PerimeterofEllipse()
-// {
-//     cout<< "  Perimeter of  Ellipse " << 3.14 * ( 3 * (MajorRadius + MinorRadius) - sqrt((3 * MajorRadius + MinorRadius) * (MajorRadius + 3 * MinorRadius)));
-// }
-
-Ellipse ::~Ellipse()
-{
 }

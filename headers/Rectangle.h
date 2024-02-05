@@ -16,9 +16,6 @@ public:
 
     void Drawing();
 
-   
-
 private:
     Point mDiagonal2;
-
 };
